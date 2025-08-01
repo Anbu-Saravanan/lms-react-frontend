@@ -18,6 +18,7 @@ function App() {
       <SimpleNavbar />
       <Routes>
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage/>}/>
 
         <Route
           path="/dashboard"
